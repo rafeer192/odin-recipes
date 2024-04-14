@@ -1,0 +1,48 @@
+* {
+    background-color: rgb(205, 226, 233);
+    font-family: Verdana, Helvetica, sans-serif; 
+}
+
+h1 {
+    font-size: 40px; 
+    color: darkred; 
+    text-align: center;
+    text-decoration: underline;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+ul.home-list {
+    line-height: 2;
+    font-size: 22px; 
+}
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+.page-heading {
+    font-family: Verdana, Helvetica, sans-serif; 
+    text-decoration: none; 
+    color: black;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+.ingredient-list, 
+.step-list {
+    line-height: 1.4;
+}
+
+.ingredient-list {
+    list-style: circle;
+}
+
+
+a button {
+    color: white;
+    background-color: darkred;
+    font-size: 22px;
+}
+
