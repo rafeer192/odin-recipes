@@ -1,48 +1,37 @@
 * {
-    background-color: rgb(205, 226, 233);
-    font-family: Verdana, Helvetica, sans-serif; 
+    padding: 0px; 
+    margin: 0px auto; 
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
 }
-
+body {
+    width: 900px; 
+    background-color: rgb(210, 235, 243);
+}
 h1 {
-    font-size: 40px; 
-    color: darkred; 
-    text-align: center;
-    text-decoration: underline;
+    text-align: center; 
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 45px; 
+    color: darkred; 
+    text-decoration: underline;
+    margin: 60px auto;
 }
 
-ul.home-list {
-    line-height: 2;
-    font-size: 22px; 
+ul {
+    list-style: square;
 }
-li a {
-    text-decoration: none;
-    color: black;
-}
-
-.page-heading {
-    font-family: Verdana, Helvetica, sans-serif; 
-    text-decoration: none; 
-    color: black;
+.home-list {
+    border: 2px solid black; 
+    padding: 32px 44px;
+    background-color: beige;
 }
 
-h2 {
-    text-transform: uppercase;
-}
-
-.ingredient-list, 
-.step-list {
-    line-height: 1.4;
-}
-
-.ingredient-list {
-    list-style: circle;
+.home-list ul {
+    line-height: 1.75; 
+    font-size: 24px; 
 }
 
 
-a button {
-    color: white;
-    background-color: darkred;
-    font-size: 22px;
-}
+
+
 
